@@ -101,6 +101,5 @@ async def clear_error(ctx, error):
         await ctx.send(f'{ctx.author.mention}, введи сколько удалить сообщений. ')
     elif isinstance(error, commands.MissingPermissions):
         await ctx.send(embed = discord.Embed(description = f':no_entry: Для тебя эта команда запрещенна!'))
-
-#token = os.environ.get('BOT_TOKEN')
-client.run('NzgzNDE0Nzk2NTE0NzU0NTkw.X8aZ4g.U6OuZsvpB-W0sG-Ij5pcoexkrcA')
+	
+token = os.environ.get('BOT_TOKEN')
